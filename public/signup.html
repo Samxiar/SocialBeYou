@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="../client.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="signup.html">Sign Up</a>
+        <a href="login.html">Login</a>
+        <div class="setting">
+            <a href="">⚙️</a>
+        </div>
+    </nav>
+    <form class="form-container" action="/signup" method="POST" enctype="multipart/form-data">
+        <h2 class="form-title">Sign Up</h2>
+        <div class="file-input-container">
+            <input class="file-input" type="file" name="profilePicture" accept="image/*" required>
+            <div class="profile-picture-placeholder">
+                <span class="profile-picture-text">Unknown</span>
+            </div>
+        </div>              
+        <input class="form-input" type="text" name="username" placeholder="Username" required style="
+        margin-top: 11px;
+    "><br>
+        <input class="form-input" type="email" name="email" placeholder="Email" required><br>
+        <input class="form-input" type="password" name="password" placeholder="Password" required><br>
+        <button class="form-submit" type="submit">Sign Up</button>
+        <p class="form-text"style="
+        margin-left: 133px;
+    ">Already signed up? <a href="/login">Login here</a ></p>
+    </form>
+    
+</body>
+<div class="footer">
+    <p>BeYou - Be the best version of yourself.</p>
+</div>
+</html>

@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logot {
+    display: flex;
+    flex-direction: row; /* Arrange items horizontally */
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; /* Center vertically */
+}
+.posts{
+    align-items: center;
+}
+header {
+    background-color: #1DA1F2;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+nav a:hover {
+    color: #1DA1F2;
+}
+.setting{
+    display: flex;
+    flex-direction: column;
+    align-items: fle;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+}
+h1 {
+    color: #1DA1F2;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tweet-form {
+    margin-bottom: 20px;
+}
+
+.tweet-form textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.tweet-form button {
+    background-color: #1da1f2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tweet {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.tweet p {
+    margin: 0;
+}
+
+.actions {
+    margin-top: 10px;
+}
+
+.actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+/* Form Container */
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Title */
+.form-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+/* CSS for File Input Container */
+.file-input-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* CSS for File Input */
+.file-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* CSS for Profile Picture Placeholder */
+.profile-picture-placeholder {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes it a circle */
+    background-color: #ccc; /* Default background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* CSS for Profile Picture Text */
+.profile-picture-text {
+    font-size: 16px;
+    color: #fff; /* Text color */
+    text-align: center;
+}
+
+/* Form Input Fields */
+.form-input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Form Input Labels */
+.form-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Form Submit Button */
+.form-submit {
+    width: 100%;
+    background-color: #1da1f2;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-submit:hover {
+    background-color: #0d8ae6;
+}
+
+/* Form Validation Error Message */
+.form-error {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.file-input-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CSS for File Input */
+.file-input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0;
+    background-color: #1da1f2;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

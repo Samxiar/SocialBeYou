@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeYou - Express Yourself</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="signup.html">Sign Up</a>
+        <a href="login.html">Login</a>
+        <a href=""></a><div class="logot">
+            <form action="/logout" method="GET">
+                <button type="submit" style="border: none;">☠️</button>
+            </form>
+            <a href="">⚙️</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to BeYou</h1>
+            <p>Express yourself freely and connect with others!</p>
+            <div class="user-greeting" id="userGreeting">
+                <!-- User greeting will be dynamically added here -->
+            </div>
+
+        </div>
+        <div class="tweet-form">
+            <textarea id="tweetText" placeholder="What's on your mind?"></textarea>
+            <button onclick="postTweet()">Tweet</button>
+        </div>
+        <div id="tweets">
+            <!-- Tweets will be dynamically added here -->
+        </div>
+    </div>
+    <!-- Add a logout button -->
+
+    <script src="client.js"></script>
+</body>
+<div class="footer">
+    <p>BeYou - Be the best version of yourself.</p>
+</div>
+
+</html>
